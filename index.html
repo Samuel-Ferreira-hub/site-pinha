@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>North's Barbearia | João Victor — Estilo e cuidado em cada corte</title>
+<meta name="description" content="North's Barbearia: cortes masculinos, barba, degradê e acabamentos com João Victor. Sua referência em cortes." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="icon" href="assets/logo.png" />
+<link rel="stylesheet" href="style.css" />
+
+<template id="__bundler_thumbnail" data-bg-color="#0a0908">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#0a0908"/>
+    <circle cx="600" cy="400" r="220" fill="none" stroke="#c9a35a" stroke-width="3"/>
+    <circle cx="600" cy="400" r="190" fill="none" stroke="#8a6a2f" stroke-width="1"/>
+    <text x="600" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="92" font-weight="700" fill="#c9a35a" letter-spacing="4">NORTH'S</text>
+    <text x="600" y="430" text-anchor="middle" font-family="Inter, sans-serif" font-size="22" letter-spacing="14" fill="#efe7d8">BARBEARIA</text>
+    <line x1="430" y1="460" x2="770" y2="460" stroke="#c9a35a" stroke-width="1"/>
+    <text x="600" y="490" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" letter-spacing="6" fill="#8a6a2f">SUA REFERÊNCIA EM CORTES</text>
+  </svg>
+</template>
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<header class="nav" role="banner">
+  <div class="container nav__inner">
+    <a href="#inicio" class="nav__brand" aria-label="North's Barbearia, início">
+      <img src="assets/logo.png" alt="Logo North's Barbearia" />
+      <div class="nav__brand-text">
+        <strong>NORTH'S</strong>
+        <span>Barbearia</span>
+      </div>
+    </a>
+
+    <nav aria-label="Principal">
+      <ul class="nav__menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#cortes">Cortes</a></li>
+        <li><a href="#avaliacoes">Avaliações</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <a class="btn nav__cta" data-wa href="#" aria-label="Agendar horário pelo WhatsApp">
+      Agendar
+      <svg class="btn-arrow" viewBox="0 0 18 10" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M0 5h16M12 1l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+
+    <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="inicio">
+  <!-- TROCAR a imagem de fundo do hero em style.css (.hero__bg) -->
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="hero__grain" aria-hidden="true"></div>
+
+  <div class="container hero__inner">
+    <div class="hero__copy">
+      <div class="hero__badge reveal">
+        <img src="assets/logo.png" alt="" />
+        <span>Sua referência em cortes</span>
+      </div>
+
+      <h1 class="hero__title">
+        <span class="line reveal" data-delay="1"><span>Estilo, atitude</span></span>
+        <span class="line reveal" data-delay="2"><span><em>&amp;</em> cuidado</span></span>
+        <span class="line reveal" data-delay="3"><span>em cada corte.</span></span>
+      </h1>
+
+      <p class="hero__sub reveal" data-delay="4">
+        Uma barbearia premium para quem leva o visual a sério. Ambiente acolhedor,
+        atendimento personalizado e acabamento impecável, sempre.
+      </p>
+
+      <div class="hero__ctas reveal" data-delay="5">
+        <a class="btn" data-wa href="#" aria-label="Agendar horário pelo WhatsApp">
+          Agendar horário
+          <svg class="btn-arrow" viewBox="0 0 18 10" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M0 5h16M12 1l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a class="btn btn--ghost" href="#servicos">Ver serviços</a>
+      </div>
+
+      <div class="hero__meta reveal" data-delay="6">
+        <div class="hero__meta-item">
+          <span class="k">Barbeiro</span>
+          <span class="v">João Victor</span>
+        </div>
+        <div class="hero__meta-item">
+          <span class="k">Atendimento</span>
+          <span class="v">Hora marcada</span>
+        </div>
+        <div class="hero__meta-item">
+          <span class="k">Estilo</span>
+          <span class="v">Premium &amp; clássico</span>
+        </div>
+      </div>
+    </div>
+
+    <aside class="hero__card reveal" data-delay="3">
+      <div class="hero__card-photo">
+        <img src="assets/joao-victor.png" alt="João Victor, barbeiro da North's Barbearia" />
+      </div>
+      <div class="hero__card-mark">Est. North's</div>
+      <h2 class="hero__card-name">João Victor</h2>
+      <div class="hero__card-rule"></div>
+      <ul class="hero__card-list">
+        <li>
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 7l3 3 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Degradês precisos e acabamento na navalha
+        </li>
+        <li>
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 7l3 3 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Atendimento personalizado, hora marcada
+        </li>
+        <li>
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 7l3 3 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Produtos profissionais selecionados
+        </li>
+        <li>
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 7l3 3 7-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Ambiente premium para relaxar
+        </li>
+      </ul>
+    </aside>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true">
+    <span>Role</span>
+    <div class="hero__scroll-line"></div>
+  </div>
+</section>
+
+<!-- ===================== SCISSORS CUT DIVIDER ===================== -->
+<div class="scissors-cut" aria-hidden="true">
+  <div class="scissors-cut__track">
+    <div class="scissors-cut__line"></div>
+    <div class="scissors-cut__cut"></div>
+  </div>
+  <span class="scissors-cut__flake scissors-cut__flake--1" style="left:22%"></span>
+  <span class="scissors-cut__flake scissors-cut__flake--2" style="left:44%"></span>
+  <span class="scissors-cut__flake scissors-cut__flake--3" style="left:66%"></span>
+  <span class="scissors-cut__flake scissors-cut__flake--4" style="left:84%"></span>
+  <div class="scissors-cut__scissors">
+    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <g class="scissors-cut__blade-top">
+        <path d="M32 32 L62 22" stroke-width="3"/>
+        <path d="M32 32 L12 18" stroke-width="2"/>
+        <circle cx="8" cy="16" r="5" stroke-width="2"/>
+      </g>
+      <g class="scissors-cut__blade-bot">
+        <path d="M32 32 L62 42" stroke-width="3"/>
+        <path d="M32 32 L12 46" stroke-width="2"/>
+        <circle cx="8" cy="48" r="5" stroke-width="2"/>
+      </g>
+      <circle cx="32" cy="32" r="2.5" fill="currentColor" stroke="none"/>
+    </svg>
+  </div>
+</div>
+
+<!-- ===================== SERVIÇOS ===================== -->
+<section class="services" id="servicos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">O que oferecemos</span>
+      <h2 class="section-title">Serviços <em>da casa</em></h2>
+      <p class="section-lede">
+        Da máquina à navalha, cada serviço é executado com precisão e atenção aos detalhes
+        que fazem a diferença no resultado final.
+      </p>
+    </div>
+
+    <div class="services__grid">
+      <!-- 1 -->
+      <article class="service reveal" data-delay="1">
+        <span class="service__num">01</span>
+        <div class="service__icon">
+          <!-- tesoura -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/>
+            <path d="M8.12 8.12L20 20M14.83 14.83L20 4M8.12 15.88L11.5 12.5"/>
+          </svg>
+        </div>
+        <h3 class="service__name">Corte</h3>
+        <p class="service__desc">Cortes clássicos, modernos e degradês desenhados sob medida para o seu rosto e estilo.</p>
+        <div class="service__price"><small>A partir de</small><strong>R$ 35</strong></div>
+      </article>
+
+      <!-- 2 -->
+      <article class="service reveal" data-delay="2">
+        <span class="service__num">02</span>
+        <div class="service__icon">
+          <!-- navalha -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 14l10-10 4 4-10 10z"/><path d="M3 14l4 4 10-10"/><path d="M14 4l3 3"/>
+          </svg>
+        </div>
+        <h3 class="service__name">Barba</h3>
+        <p class="service__desc">Modelagem com toalha quente, lâmina e produtos profissionais. Acabamento limpo e duradouro.</p>
+        <div class="service__price"><small>A partir de</small><strong>R$ 30</strong></div>
+      </article>
+
+      <!-- 3 -->
+      <article class="service reveal" data-delay="3">
+        <span class="service__num">03</span>
+        <div class="service__icon">
+          <!-- combo -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v20"/><path d="M5 7l7 5 7-5"/><path d="M5 17l7-5 7 5"/>
+          </svg>
+        </div>
+        <h3 class="service__name">Corte + Barba</h3>
+        <p class="service__desc">O combo completo para um visual alinhado da cabeça ao queixo, com economia de tempo.</p>
+        <div class="service__price"><small>A partir de</small><strong>R$ 60</strong></div>
+      </article>
+
+      <!-- 4 -->
+      <article class="service reveal" data-delay="4">
+        <span class="service__num">04</span>
+        <div class="service__icon">
+          <!-- luzes -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3v3M5.6 5.6l2.1 2.1M3 12h3M5.6 18.4l2.1-2.1M12 21v-3M18.4 18.4l-2.1-2.1M21 12h-3M18.4 5.6l-2.1 2.1"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+        </div>
+        <h3 class="service__name">Luzes</h3>
+        <p class="service__desc">Reflexos e descoloração para dar dimensão, contraste e personalidade ao corte.</p>
+        <div class="service__price"><small>A partir de</small><strong>R$ 90</strong></div>
+      </article>
+
+      <!-- 5 -->
+      <article class="service reveal" data-delay="1">
+        <span class="service__num">05</span>
+        <div class="service__icon">
+          <!-- gota / hidratação -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3s6 7 6 11a6 6 0 11-12 0c0-4 6-11 6-11z"/>
+            <path d="M9 14a3 3 0 003 3"/>
+          </svg>
+        </div>
+        <h3 class="service__name">Hidratação</h3>
+        <p class="service__desc">Tratamento profundo para cabelo e barba, devolvendo brilho, maciez e saúde aos fios.</p>
+        <div class="service__price"><small>A partir de</small><strong>R$ 40</strong></div>
+      </article>
+
+      <!-- 6 -->
+      <article class="service reveal" data-delay="2">
+        <span class="service__num">06</span>
+        <div class="service__icon">
+          <!-- pente / acabamento -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="6" width="18" height="4" rx="1"/>
+            <path d="M6 10v8M10 10v8M14 10v8M18 10v8"/>
+          </svg>
+        </div>
+        <h3 class="service__name">Acabamento</h3>
+        <p class="service__desc">Pezinho, contornos e linhas perfeitas para manter o corte sempre impecável entre visitas.</p>
+        <div class="service__price"><small>A partir de</small><strong>R$ 20</strong></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CORTES / GALERIA ===================== -->
+<section class="gallery" id="cortes">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Portfólio</span>
+      <h2 class="section-title">Alguns dos <em>nossos cortes</em></h2>
+      <p class="section-lede">
+        Uma seleção de trabalhos recentes da cadeira do João Victor.
+      </p>
+    </div>
+
+    <!-- Para adicionar mais cortes, duplique um <figure class="gallery__item">
+         e troque o src da imagem + o nome no caption -->
+    <div class="gallery__grid">
+
+      <figure class="gallery__item reveal" data-delay="1">
+        <img class="gallery__img" src="assets/corte-1.jpg" alt="Corte degradê textura natural por João Victor" loading="lazy" />
+        <figcaption class="gallery__overlay">
+          <div class="gallery__caption">Mid Fade Texturizado</div>
+          <div class="gallery__sub">North's · João Victor</div>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery__item reveal" data-delay="2">
+        <img class="gallery__img" src="assets/corte-2.jpg" alt="Corte social com risco e desenho lateral" loading="lazy" />
+        <figcaption class="gallery__overlay">
+          <div class="gallery__caption">Social com Desenho</div>
+          <div class="gallery__sub">North's · João Victor</div>
+        </figcaption>
+      </figure>
+
+      <figure class="gallery__item reveal" data-delay="1">
+        <img class="gallery__img" src="assets/corte-3.jpg" alt="Corte degradê navalhado com risco lateral" loading="lazy" />
+        <figcaption class="gallery__overlay">
+          <div class="gallery__caption">Navalhado com Risco</div>
+          <div class="gallery__sub">North's · João Victor</div>
+        </figcaption>
+      </figure>
+
+    </div>
+
+    <!-- Instagram CTA -->
+    <a class="ig-cta reveal" href="https://www.instagram.com/norths_barbearia/" target="_blank" rel="noopener">
+      <div class="ig-cta__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="18" height="18" rx="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r=".9" fill="currentColor"/>
+        </svg>
+      </div>
+      <div class="ig-cta__text">
+        <span class="ig-cta__lead">Veja todos os cortes no Instagram</span>
+        <strong class="ig-cta__handle">@norths_barbearia</strong>
+      </div>
+      <span class="ig-cta__arrow" aria-hidden="true">
+        <svg viewBox="0 0 18 10" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M0 5h16M12 1l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- ===================== SOBRE ===================== -->
+<section class="about" id="sobre">
+  <div class="container about__grid">
+    <div class="about__visual reveal">
+      <div class="about__visual-inner"></div>
+      <div class="about__visual-stamp" aria-hidden="true">
+        <strong>EST.</strong>
+        <span>North's</span>
+      </div>
+    </div>
+
+    <div class="about__content">
+      <div class="section-head reveal">
+        <span class="eyebrow">Sobre nós</span>
+        <h2 class="section-title">Sobre a <em>North's Barbearia</em></h2>
+      </div>
+
+      <p class="about__text reveal" data-delay="1">
+        A <strong>North's Barbearia</strong> nasceu da paixão por unir tradição e estilo
+        contemporâneo. Comandada por <strong>João Victor</strong>, é um espaço pensado
+        para quem busca mais do que um corte: uma experiência completa de cuidado pessoal.
+      </p>
+      <p class="about__text reveal" data-delay="2">
+        Aqui, cada cliente é atendido de forma personalizada, num ambiente acolhedor
+        onde dá pra <strong>relaxar, conversar e sair com o visual em dia</strong>.
+        Atenção aos detalhes, técnica apurada e produtos de qualidade. Esse é o nosso compromisso.
+      </p>
+
+      <ul class="about__features">
+        <li class="reveal" data-delay="1">
+          <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Ambiente premium e acolhedor
+        </li>
+        <li class="reveal" data-delay="2">
+          <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Atendimento exclusivo, hora marcada
+        </li>
+        <li class="reveal" data-delay="3">
+          <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Produtos profissionais selecionados
+        </li>
+        <li class="reveal" data-delay="4">
+          <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Atenção obsessiva aos detalhes
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== AVALIAÇÕES (REVIEWS) =====================
+     ⚠️  TODOS OS DEPOIMENTOS ABAIXO SÃO DE EXEMPLO.
+     Substitua nome, comentário e estrelas pelos reais quando tiver.
+===================================================================== -->
+<section class="reviews" id="avaliacoes">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">O que dizem</span>
+      <h2 class="section-title">Quem passa <em>volta sempre</em></h2>
+      <p class="section-lede">Cliente satisfeito é o nosso melhor cartão de visita.</p>
+    </div>
+
+    <div class="reviews__grid">
+      <article class="review reveal" data-delay="1">
+        <div class="review__stars" aria-label="5 de 5 estrelas">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+        </div>
+        <p class="review__quote">Já cortei em vários lugares e a North's é de longe o melhor. O João pega a sua vibe na hora e o degradê fica impecável. Saí outro homem.</p>
+        <div class="review__author">
+          <div class="review__avatar" aria-hidden="true">RF</div>
+          <div class="review__author-info">
+            <span class="review__name">Rafael Ferreira</span>
+            <span class="review__source">Google · há 2 semanas</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="review reveal" data-delay="2">
+        <div class="review__stars" aria-label="5 de 5 estrelas">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+        </div>
+        <p class="review__quote">Ambiente top, atendimento de primeira e o cara é fera com a navalha. Toalha quente, acabamento perfeito. Recomendo demais.</p>
+        <div class="review__author">
+          <div class="review__avatar" aria-hidden="true">LM</div>
+          <div class="review__author-info">
+            <span class="review__name">Lucas Moreira</span>
+            <span class="review__source">Google · há 1 mês</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="review reveal" data-delay="3">
+        <div class="review__stars" aria-label="5 de 5 estrelas">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+        </div>
+        <p class="review__quote">Marco horário pelo WhatsApp e sempre sou atendido na hora. Pontual, limpo e o resultado é sempre top. Virei cliente fiel.</p>
+        <div class="review__author">
+          <div class="review__avatar" aria-hidden="true">PA</div>
+          <div class="review__author-info">
+            <span class="review__name">Pedro Almeida</span>
+            <span class="review__source">Google · há 3 meses</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="reviews__meta reveal" data-delay="4">
+      <div class="reviews__rating">
+        <strong>5.0</strong>
+        <div class="reviews__rating-stars" aria-label="5 estrelas">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l2.2 4.5 4.8.7-3.5 3.4.8 4.8L8 12.1l-4.3 2.3.8-4.8L1 6.2l4.8-.7z"/></svg>
+        </div>
+        <span>baseado em avaliações</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SCISSORS CUT DIVIDER ===================== -->
+<div class="scissors-cut" aria-hidden="true">
+  <div class="scissors-cut__track">
+    <div class="scissors-cut__line"></div>
+    <div class="scissors-cut__cut"></div>
+  </div>
+  <span class="scissors-cut__flake scissors-cut__flake--1" style="left:18%"></span>
+  <span class="scissors-cut__flake scissors-cut__flake--2" style="left:40%"></span>
+  <span class="scissors-cut__flake scissors-cut__flake--3" style="left:62%"></span>
+  <span class="scissors-cut__flake scissors-cut__flake--4" style="left:82%"></span>
+  <div class="scissors-cut__scissors">
+    <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <g class="scissors-cut__blade-top">
+        <path d="M32 32 L62 22" stroke-width="3"/>
+        <path d="M32 32 L12 18" stroke-width="2"/>
+        <circle cx="8" cy="16" r="5" stroke-width="2"/>
+      </g>
+      <g class="scissors-cut__blade-bot">
+        <path d="M32 32 L62 42" stroke-width="3"/>
+        <path d="M32 32 L12 46" stroke-width="2"/>
+        <circle cx="8" cy="48" r="5" stroke-width="2"/>
+      </g>
+      <circle cx="32" cy="32" r="2.5" fill="currentColor" stroke="none"/>
+    </svg>
+  </div>
+</div>
+
+<!-- ===================== LOCALIZAÇÃO ===================== -->
+<section class="location" id="localizacao">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Visite-nos</span>
+      <h2 class="section-title">Onde <em>estamos</em></h2>
+      <p class="section-lede">Passa pra dar um alô, marcar um horário e curtir o ambiente.</p>
+    </div>
+
+    <div class="location__grid">
+      <!-- TROCAR src do iframe pelo Google Maps real da barbearia -->
+      <div class="location__card reveal">
+        <iframe
+          class="location__map"
+          title="Mapa, North's Barbearia"
+          src="https://www.google.com/maps?q=Rua+M%C3%A1rio+Jublin+450&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <!-- TROCAR background-image em .location__photo (style.css) pela foto real da fachada -->
+      <div class="location__card location__photo reveal" data-delay="1" aria-label="Fachada da North's Barbearia">
+        <div class="location__photo-overlay">
+          <div>
+            <h4>North's Barbearia</h4>
+            <span>Fachada</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="location__info">
+      <div class="location__info-item reveal" data-delay="1">
+        <div class="k">Endereço</div>
+        <div class="v">
+          Rua Mário Jublin, 450
+          <small>Londrina · PR</small>
+        </div>
+        <a href="https://maps.app.goo.gl/SLi3QqJZmXdUoq9s5" target="_blank" rel="noopener">
+          Abrir no Google Maps
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l6-6M5 3h4v4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+      <div class="location__info-item reveal" data-delay="2">
+        <div class="k">Funcionamento</div>
+        <div class="v">
+          Ter–Sáb · 09h às 20h
+          <small>Domingo e segunda · fechado</small>
+        </div>
+      </div>
+      <div class="location__info-item reveal" data-delay="3">
+        <div class="k">WhatsApp</div>
+        <div class="v">+55 43 99675-9609</div>
+        <a data-wa href="#">
+          Agendar agora
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l6-6M5 3h4v4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTATO ===================== -->
+<section class="contact" id="contato">
+  <div class="container contact__inner">
+    <div class="section-head reveal" style="align-items:center">
+      <span class="eyebrow">Fale com a gente</span>
+      <h2 class="section-title">Vamos marcar <em>seu horário?</em></h2>
+      <p class="section-lede" style="text-align:center">
+        Chama no WhatsApp e já deixe agendado. Atendimento rápido e sem complicação.
+      </p>
+    </div>
+
+    <a class="btn contact__cta reveal" data-wa href="#" data-delay="1">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20.5 3.5A11.5 11.5 0 003.4 17.6L2 22l4.5-1.4A11.5 11.5 0 1020.5 3.5zm-8.4 17.7c-1.7 0-3.4-.5-4.9-1.3l-.4-.2-2.7.8.8-2.6-.2-.4a9.5 9.5 0 1117.7-4.8 9.5 9.5 0 01-10.3 8.5z"/>
+      </svg>
+      Agendar pelo WhatsApp
+    </a>
+
+    <div class="contact__grid">
+      <div class="contact__item reveal" data-delay="1">
+        <div class="contact__item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.1-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.7.6 2.5a2 2 0 01-.5 2.1L8 9.6a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.8.3 1.6.5 2.5.6a2 2 0 011.7 2z"/></svg>
+        </div>
+        <span class="k">Telefone / WhatsApp</span>
+        <a class="v" data-wa href="#">+55 43 99675-9609</a>
+      </div>
+
+      <div class="contact__item reveal" data-delay="2">
+        <div class="contact__item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <span class="k">Horário</span>
+        <span class="v">Ter–Sáb<br/>09h às 20h</span>
+      </div>
+
+      <div class="contact__item reveal" data-delay="3">
+        <div class="contact__item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".9" fill="currentColor"/></svg>
+        </div>
+        <span class="k">Instagram</span>
+        <a class="v" href="https://www.instagram.com/norths_barbearia/" target="_blank" rel="noopener">@norths_barbearia</a>
+      </div>
+
+      <div class="contact__item reveal" data-delay="4">
+        <div class="contact__item-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <span class="k">Endereço</span>
+        <span class="v">Rua Mário Jublin, 450<br/>Londrina · PR</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <img src="assets/logo.png" alt="" />
+      <strong>NORTH'S BARBEARIA</strong>
+    </div>
+    <div class="footer__copy">© <span data-year>2026</span> North's Barbearia · Todos os direitos reservados</div>
+    <div class="footer__links">
+      <a href="https://www.instagram.com/norths_barbearia/" target="_blank" rel="noopener">Instagram</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#cortes">Cortes</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===================== WHATSAPP FLUTUANTE ===================== -->
+<a class="wa-float" data-wa href="#" aria-label="Abrir conversa no WhatsApp">
+  <span class="wa-float__label">Fale conosco</span>
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M20.5 3.5A11.5 11.5 0 003.4 17.6L2 22l4.5-1.4A11.5 11.5 0 1020.5 3.5zm-8.4 17.7c-1.7 0-3.4-.5-4.9-1.3l-.4-.2-2.7.8.8-2.6-.2-.4a9.5 9.5 0 1117.7-4.8 9.5 9.5 0 01-10.3 8.5z"/>
+    <path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1l-1 1.2c-.2.2-.3.2-.6.1a7.7 7.7 0 01-3.8-3.3c-.3-.5.3-.5.8-1.6.1-.2 0-.3 0-.5l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4a3 3 0 00-.9 2.2c0 1.3.9 2.5 1.1 2.7.1.2 1.9 2.9 4.6 4 1.6.7 2.3.8 3.1.6.5-.1 1.7-.7 2-1.4.2-.6.2-1.2.1-1.4-.1-.1-.3-.2-.7-.4z"/>
+  </svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
