@@ -1472,6 +1472,58 @@ section + section{ border-top: 1px solid var(--c-line); }
 .reveal[data-delay="5"]{ transition-delay: .40s; }
 .reveal[data-delay="6"]{ transition-delay: .48s; }
 
+/* =========================================================
+   RESPONSIVE — melhorias mobile finas
+   ========================================================= */
+
+/* Footer — empilha e centraliza em telas médias */
+@media (max-width: 640px){
+  .footer__inner{ flex-direction: column; text-align: center; gap: 16px; }
+  .footer__links{ flex-wrap: wrap; justify-content: center; gap: 18px; }
+}
+
+/* Telas pequenas — ajustes de padding e espaçamento */
+@media (max-width: 480px){
+  .container{ padding-inline: 16px; }
+
+  .hero__card{ padding: 24px 20px; }
+  .hero__title{ font-size: clamp(36px, 12vw, 48px); }
+
+  .review{ padding: 24px 20px; }
+  .review__quote{ font-size: 17px; }
+
+  .service{ padding: 32px 20px; }
+  .service__num{ top: 18px; right: 20px; }
+
+  .gallery__overlay{ padding: 16px; opacity: 1; }
+  .gallery__caption{ font-size: 17px; transform: none; }
+  .gallery__sub{ transform: none; }
+
+  .about__visual-stamp{ width: 100px; height: 100px; bottom: -16px; right: -4px; }
+  .about__visual-stamp strong{ font-size: 22px; }
+
+  .location__photo-overlay{ inset: auto 16px 16px 16px; }
+  .location__photo-overlay h4{ font-size: 18px; }
+
+  .section-head{ margin-bottom: 40px; }
+  .section-lede{ font-size: 15px; }
+}
+
+/* Telas muito pequenas — ajustes extras */
+@media (max-width: 400px){
+  .hero__badge{ padding: 6px 12px 6px 6px; gap: 10px; }
+  .hero__badge span{ font-size: 10px; }
+  .hero__meta{ gap: 18px; }
+  .hero__ctas{ flex-direction: column; }
+
+  .services__grid{ grid-template-columns: 1fr; }
+
+  .contact__item{ gap: 8px; }
+  .contact__item .v{ font-size: 15px; }
+
+  .footer__brand strong{ font-size: 12px; }
+}
+
 @media (prefers-reduced-motion: reduce){
   *, *::before, *::after{
     animation-duration: .01ms !important;
